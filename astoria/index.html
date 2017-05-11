@@ -4,31 +4,68 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Document</title>	
-	<link rel="stylesheet" href="font/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Damion|Lato:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-	<form action="#">
-		  <div class="form form--registration">
-		   <div class="form__row">
-		    <label for="first_name" class="form__label">Введите ваше имя</label>
-		    <input id="first_name" type="text" class="form__field form__field--w100">
-		   </div>
-		   <div class="form__row">
-		    <label for="last_name" class="form__label">Введите ваше имя</label>
-		    <input id="last_name" type="text" class="form__field form__field--w100">
-		   </div>
-		   <div class="form__row">
-		    <label for="phone" class="form__label">Введите ваш номер телефона</label>
-		    <input id="phone" class="req phone" type="text" class="form__field form__field--w100">
-		   </div>
-		   <button class="btn">Зарегистрироваться</button>
-		   </form>
-	  </div>
-	 </div>
-
+<header class="header">
+	<div class="container cleatfix">
+	    <a href="#" class="header__logo">astoria</a>           
+	    <div class="menu-btn menu-btn--not-active header__menu-btn" id="menu-btn"><span class="menu-btn__inner"></span></div>
+	    <nav class="menu header__menu">
+	        	<ul class="menu__list">
+	         		<li class="menu__point"><a class="menu__link" href="#">Home</a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">Services</a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">About</a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">Work</a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">Contacts</a></li>         
+	        	</ul>
+	      	</nav>
+	    </div>
+	 </div><!-- container -->
+</header>
+<main>
+	<section class="contact">
+		<div class="container">
+			
+			<h1 class="title-block contact__title">Contact us</h1>
+			<p class="txt-contact contact__txt-contact">Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
+			
+			<div class="items-block">
+				<div class="address-block">
+					<h3 class="title-item" >
+					
+					</h3>
+					<img src="" alt="">
+					<p></p>
+					<p></p>				
+				</div>
+				<div class="form-block">
+					<form action="#">
+				 		<div class="form form--registration">
+				   			<div class="form__row">
+							    <label for="first_name" class="form__label">Введите ваше имя</label>
+							    <input id="first_name" type="text" class="form__field form__field--w100">
+							</div>
+							<div class="form__row">
+							    <label for="last_name" class="form__label">Введите ваше имя</label>
+							    <input id="last_name" type="text" class="form__field form__field--w100">
+							</div>
+							<div class="form__row">
+							    <label for="phone" class="form__label">Введите ваш номер телефона</label>
+							    <input id="phone" class="req phone" type="text" class="form__field form__field--w100">
+							 </div>
+				   <button class="btn">Зарегистрироваться</button>
+				   </form>			
+				</div>
+			</div>
+		</div>
+	</section>	
+</main>
+<footer>
+	
+</footer>
   
 <script src="vendor/jquery-1.12.4.min.js"></script>
 <script src="vendor/jquery.inputmask.bundle.min.js"></script>
